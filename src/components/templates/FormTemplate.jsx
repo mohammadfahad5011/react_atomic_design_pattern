@@ -5,7 +5,8 @@ import "./FormTemplate.css";
 
 const FormTemplate = () => {
   const formTemSty = {
-    width: "1140px",
+    maxWidth: "1140px",
+    width: "100%",
     margin: "0 auto",
     display: "flex",
     gap: "40px",

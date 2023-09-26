@@ -24,7 +24,7 @@ const InputField = ({ type, idName, placeholder, value }) => {
     border: "1px solid #35155D",
     outline: "none",
     display: "block",
-    maxWidth: "500px",
+    minWidth: "350px",
     width: "100%",
     padding: "15px",
     boxShadow: "rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset",

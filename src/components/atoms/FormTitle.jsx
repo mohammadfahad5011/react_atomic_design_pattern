@@ -7,6 +7,8 @@ const FormTitle = ({ children }) => {
     texAlign: "center",
     fontWeight: "800",
     marginBottom: "80px",
+    display: "flex",
+    minWidth: "300px",
   };
   return <h1 style={titleSty}>{children}</h1>;
 };

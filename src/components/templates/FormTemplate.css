@@ -20,3 +20,12 @@
   right: 0;
   animation: bounce 5s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+@media only screen and (max-width: 768px) {
+  .form_left {
+    display: none;
+  }
+  .form_right {
+    width: 100%;
+  }
+}
